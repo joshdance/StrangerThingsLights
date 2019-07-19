@@ -32,8 +32,8 @@ Serial.write("entered loop -> ");
 
 switch(z){
  case 0:
- Serial.write("IM HERE case -> ");
-  IMHERE();
+ Serial.write("Christmas case -> ");
+  CHRISTMAS();
   break;
  case 1:
  Serial.write("RUN -> ");
@@ -61,6 +61,10 @@ switch(z){
   glowdown();
   glowup();
   glowdown();
+  break;
+  case 6:
+  Serial.write("IM HERE -> ");
+  IMHERE();
   break;
  default:
  Serial.write("Christmas case -> ");
